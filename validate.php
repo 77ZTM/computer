@@ -1,10 +1,5 @@
 <?php
-/**
- * MASTER LOGIN SYSTEM
- * @author Mihai Ionut Vilcu (ionutvmi@gmail.com)
- * June 2013
- *
- */
+
 include 'inc/init.php';
 $page->title = "Validate account";
 if(isset($_GET['username']) && isset($_GET['key'])) {
